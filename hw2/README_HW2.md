@@ -3,13 +3,9 @@
 Mankala je souborné označení pro deskové hry pro dva hráče, jejichž společným znakem je přemisťování kuliček (kamínků, pecek, apod.) mezi důlky. V tomto domácím úkolu si naprogramujete jednoduchou variantu takové hry – pravidla jsou inspirována hrou Kalaha, resp. jednou z jejích obměn.  
   
 Hrací deska sestává z dvou řad menších důlků (jejich počet bude parametrem hry, viz níže) a dvou větších důlků vlevo a vpravo. Vypadá tedy např. takto (počet menších důlků v každé řadě je zde šest):  
-  
-╭───────╮╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮╭───────╮  
-│       ││ M ││ L ││ K ││ J ││ I ││ H ││       │  
-│   N   │╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯│       │  
-│       │╭───╮╭───╮╭───╮╭───╮╭───╮╭───╮│   G   │  
-│       ││ A ││ B ││ C ││ D ││ E ││ F ││       │  
-╰───────╯╰───╯╰───╯╰───╯╰───╯╰───╯╰───╯╰───────╯  
+ 
+![image](https://user-images.githubusercontent.com/97029126/149747967-0d2c80b9-e152-48c8-9b9e-96f467d29500.png)
+ 
 Hru hrají dva hráči, kteří sedí proti sobě. Každému hráči patří menší důlky na jeho straně a větší důlek vpravo – tento větší důlek nazýváme hráčovou bankou. Na začátku hry je v každém menším důlku předem určený počet kuliček (toto je druhý parametr hry), banky jsou prázdné. Hra probíhá po kolech, přičemž se hráči střídají. Průběh každého kola je následující:
   
 Hráč si vybere jeden ze svých menších důlků, který obsahuje nějaké kuličky. Pokud jsou všechny důlky hráče prázdné, hra končí (viz níže).  
