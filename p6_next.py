@@ -1,3 +1,11 @@
+#Napište funkci, která pro zadané číslo number najde nejbližší
+#větší číslo, které je násobkem čísla k.
+
+#Dále napište funkci, která pro zadané číslo number najde nejbližší větší
+#prvočíslo.
+
+
+
 def next_multiple(number,k):
     number+=1
     found = False
