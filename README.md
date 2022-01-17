@@ -1,1 +1,1 @@
-# Úkázka menších příkladů a domácích úloh
+# Homeworks and school projects
