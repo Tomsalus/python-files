@@ -15,5 +15,3 @@ Pokud při rozdělování padla poslední kulička do hráčovy banky, v další
 Hra končí, když má hráč, který je na tahu, všechny menší důlky prázdné. Jeho protivník si pak přesune všechny kuličky ze svých menších důlků do své banky. Vyhrává ten hráč, který má v bance více kuliček. Příklad průběhu hry je na konci této stránky.  
   
 Hrací desku budeme reprezentovat pomocí dvou seznamů nezáporných celých čísel. Každý seznam reprezentuje důlky jednoho z hráčů (postupně zleva doprava z hráčova pohledu), přičemž počet kuliček v bance hráče je posledním prvkem seznamu. Desce naznačené výše tedy odpovídají seznamy [A, B, C, D, E, F, G] a [H, I, J, K, L, M, N].  
-  
-Abyste si hru mohli vyzkoušet (poté, co vyřešíte níže uvedené úlohy), je vám k dispozici soubor hw2_game.py, který vložte do stejného adresáře, jako je soubor s vaším řešením, případně jej upravte dle komentářů na jeho začátku a spusťte. Kliknutím na jeden z důlků se provede tah, kliknutí na tlačítko Random vybere náhodný neprázdný důlek hráče, klávesa R hru resetuje a Q ukončí. Program nijak nekontroluje konec hry ani střídání tahů hráčů.  
